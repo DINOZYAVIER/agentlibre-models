@@ -5,6 +5,10 @@ description = "Local Qwen3.8 27B GGUF"
 dialect = "qwen3"
 tool_call_format = "structured_tool_calls"
 
+[reasoning]
+efforts = ["xhigh", "medium", "low"]
+preserve = true
+
 [artifact]
 kind = "gguf"
 url = "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF/resolve/main/Qwen3.8-27B-UD-Q4_K_XL.gguf"

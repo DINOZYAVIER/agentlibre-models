@@ -1,0 +1,12 @@
+schema = "agentlibre.model/v1"
+id = "agentlibre.gemma4-12b"
+version = "1.0.0"
+description = "Local Gemma 4 12B QAT GGUF"
+dialect = "gemma4"
+tool_call_format = "gemma_agent_call"
+
+[artifact]
+kind = "gguf"
+url = "https://huggingface.co/unsloth/gemma-4-12B-it-qat-GGUF/resolve/f18012b8f690e563b7f872cb764b4cb3de90b14a/gemma-4-12B-it-qat-UD-Q4_K_XL.gguf"
+sha256 = "sha256:cc9ff072e0a8203429ed854e6662c17a6c2bc1e5dca5b475dd4736caaacbc165"
+bytes = 6716355328
